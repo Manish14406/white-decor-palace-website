@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection';
 import CategoriesSection from './components/CategoriesSection';
 import AboutSection from './components/AboutSection';
 import ServicesSection from './components/ServicesSection';
+import CatalogueSection from './components/CatalogueSection';
 import ProcessSection from './components/ProcessSection';
 import ValueSection from './components/ValueSection';
 import TestimonialsSection from './components/TestimonialsSection';
@@ -21,6 +22,7 @@ export default function App() {
         <CategoriesSection />
         <AboutSection />
         <ServicesSection />
+        <CatalogueSection />
         <ProcessSection />
         <ValueSection />
         <TestimonialsSection />
