@@ -2,6 +2,12 @@ import { motion } from 'framer-motion';
 
 const categories = [
   {
+    id: 'curtains',
+    title: 'Curtains',
+    subtitle: 'Manual & Motorized curtains',
+    image: '/images/category-curtains-generated.png',
+  },
+  {
     id: 'bedroom-set',
     title: 'Bedroom Set',
     subtitle: 'Complete luxury bedroom collections',
@@ -20,6 +26,7 @@ const categories = [
     image: '/images/category-wardrobe.png',
   },
 ];
+
 
 const item = {
   hidden: { opacity: 0, y: 40 },
